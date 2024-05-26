@@ -12,11 +12,10 @@ body {
 	flex-wrap: wrap;
 	flex-direction: row;
 
-	background-color: #fff;
+	background-color: #f5f3f3;
 }
 
 .divBox {
-	border: 0.5px solid #333;
 	width: 5px;
 	height: 5px;
 	flex: auto;
@@ -24,6 +23,15 @@ body {
 }
 
 .buttonContainer {
-	height: 30px;
+	display: flex;
+	align-items: center;
+	height: 50px;
 	margin: auto;
+}
+
+.getColor {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	padding: 0px;
 }
